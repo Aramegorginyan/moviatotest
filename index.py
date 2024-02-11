@@ -10,7 +10,7 @@ def sort_by_name(films_order):
     total = [film["movieName"] for film in films_order]
     sort_total = sorted(total)
 
-    for i in sort_total:
+    for i in sort_total: #Այս փուլմում երկար էի մտածում ինդեքսներով ինչպես loop անել
         index = total.index(i)
         result.append(index)
 
